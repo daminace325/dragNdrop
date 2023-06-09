@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DragAndDrop.css">
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="child">
+            <div class="heading">Drag the items from here</div>
+            <div class="container" id="firstContainer">
+                <img class="imgItem"
+                    src="https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg">
+                <img class="imgItem" src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg" draggable="true">
+                <img class="imgItem"
+                src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=">
+                <img class="imgItem" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg">
+                <img class="imgItem"
+                    src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=">
+                <img class="imgItem"
+                    src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80">
+            </div>
+        </div>
+        <div class="child">
+            <div class="heading">Drop the items inside here</div>
+            <div class="container" id="secondContainer">
+            </div>
+        </div>
+    </div>
+
+    <button onClick="reset()">Reset</button>
+
+</body>
+<script src="DragAndDrop.js"></script>
+
+</html>
