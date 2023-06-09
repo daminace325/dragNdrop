@@ -1,2 +1,6 @@
-# dragNdrop
- A project made using HTML, CSS, JS in which you can drag and drop items from one container to another...
+*README FILE ON RUNNING THE WEBPAGE*
+
+1. Open DragAndDrop.html and run it on localhost and open webpage
+2. Make sure you are connect with internet so that the list of images can be seen on the first container on the left
+3. Drag the images from left to second container on right in any order
+4. Click on reset button to clear the second container and reset the first container to its original state
