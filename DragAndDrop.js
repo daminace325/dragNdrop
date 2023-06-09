@@ -22,6 +22,11 @@ for ( item of items ){
             //alerting the user 
             alert("Success! The item has been dropped into the container. Click OK")
         })
+
+
+
+
+        
     })
 }
 
